@@ -1,0 +1,7 @@
+¿Por qué lo detecta como troyano?
+
+1. Control de Procesos: El uso de psutil para identificar y cerrar procesos puede parecer sospechoso para un antivirus, ya que este comportamiento es típico de malware que intenta manipular el sistema.
+2. Ejecución de Comandos: Usar subprocess para ejecutar o cerrar aplicaciones simula acciones que podrían ser utilizadas en ataques.
+3. Detección Automática: Muchos antivirus detectan patrones genéricos en el comportamiento de scripts y los catalogan como potencialmente dañinos sin análisis exhaustivo.
+
+Data: No tiene ningun troyano pero lo detecta porque SimpleSpy detecta todo lo que pasa en tu ordenador y rutas y al darle a ejecutar y eliminar archivo solo cierra la aplicacion pero no es nada malo.
